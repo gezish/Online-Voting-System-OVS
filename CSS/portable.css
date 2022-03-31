@@ -1,0 +1,548 @@
+*{	box-sizing:border-box;}
+/*------FOR MOBILE PHONE----------*/
+
+	[class*="col-"]{
+	width:100%;
+}
+
+/*------FOR TABLETES-----*/
+@media only screen and (min-width:600px){
+	
+	.col-s-1 {width:8.33%;}
+	.col-s-2 {width:16.66%;}
+	.col-s-3 {width:25%;}
+	.col-s-4 {width:33.33%;}
+	.col-s-5 {width:41.66%;}
+	.col-s-6 {width:50%;}
+	.col-s-7 {width:58.33%;}
+	.col-s-8 {width:65.66%;}
+	.col-s-9 {width:75%;}
+	.col-s-10 {width:83.33%;}
+	.col-s-11 {width:91.66%;}
+	.col-s-12 {width:100%;}
+	
+	
+}
+
+
+/*------FOR DESKTOP-----*/
+@media only screen and (min-width:768px){
+	
+	.col-1 {width:8.33%;}
+	.col-2 {width:16.66%;}
+	.col-3 {width:25%;}
+	.col-4 {width:33.33%;}
+	.col-5 {width:41.66%;}
+	.col-6 {width:50%;}
+	.col-7 {width:58.33%;}
+	.col-8 {width:65.66%;}
+	.col-9 {width:75%;}
+	.col-10 {width:83.33%;}
+	.col-11 {width:91.66%;}
+	.col-12 {width:100%;}
+	
+}
+
+@viewport{
+	zoom:1.0;
+	width:extend-to-zoom;
+}
+
+@-ms-viewport{
+	width:extend-to-zoom;
+	zoom:1.0;
+	
+}
+
+
+
+
+
+/*--------------all style------------*/
+
+/*styling the header part*/
+.header{
+	width:100%;
+	height:100px;
+}
+/*styling the header image*/
+.header img{
+	width:100%;
+	height:100%;
+	
+}
+/*styling the header part language div*/
+
+.lang{
+	width:14%;
+	float:right;
+	
+	
+}
+/*styling the header part language button*/
+.language{
+
+		width:100%;
+        border: none;
+		border-radius:50px;
+		background-color:#9AFEFF;
+        text-align: left;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        margin: 4px 2px;
+        cursor: pointer;
+		box-sizing:border-box;
+		
+ 
+}
+
+/*styling the header part Labguage Buttons when the cursor is on the button*/
+.language:hover{
+	background-color:#306754;
+	color:white;
+}
+/*stayling the hr tag */
+.headfoot{
+
+	height:5px;
+	background-color:#F433FF;
+}
+label{
+	padding-left:20px;
+	font-size:20px;
+}
+legend{
+	font-size:18px;
+	font-weight:bold;
+	color:#164A41;
+}
+summary{
+	background-color:#164A41;
+	font-size:18px;
+	font-weight:bold;
+	color:orange;
+}
+/*styling the Body part*/
+.body{
+	background-color:white;
+	position:relative;
+	min-height:600px;
+}
+/* ----------------Stayling Side Navigation Bar-------------------*/
+.nav{
+		
+		float:left;
+		border:3px solid orange;
+		height:590px;
+		background-color:#203647;
+}
+.button{
+		
+		width:98%;
+        border: none;
+		border-radius:3px;
+        color: white;
+        padding: 10px 24px;
+        text-align: center;
+		display:block;
+        text-decoration: none;
+        font-size: 18px;
+        margin: 4px 2px;
+        cursor: pointer;
+		height:50px;
+		background-color:orange;
+
+}
+.button:hover{
+	background-color:black;
+	
+}
+
+
+/*-----------------------------------------Styling the Registration Form----------------*/
+
+.main{
+	
+	float:left;
+	height:590px;
+	overflow-x:auto;
+	overflow-y:auto;
+	border:3px solid orange;
+	background-color:white;
+
+
+}
+
+details{
+	background-color:orange;
+	
+}
+
+.profile input[type ="date"],
+.profile input[type ="number"],
+.profile input[type ="text"],
+.profile input[type ="password"],
+.all input[type ="file"],
+.all input[type ="date"],
+.all input[type ="number"],
+.all input[type ="text"],
+.all input[type ="email"],
+.all input[type ="password"]{
+		
+		width:50%;
+		display:block;
+		border:none;
+		color:black;
+		box-sizing:border-box;
+		padding:0 10px;
+		font-weight:bold;
+		height:25px;
+		margin-bottom:10px;
+		margin-left:15px;
+		background-color:rgba(0,0,0,0.13);
+		border-bottom:3px solid #00FF00;
+}
+.reciverposition select,
+.all select{
+		width:50%;
+		color:#2B65EC;
+		font-size:16px;
+		font-weight:bold;
+		display:block;
+		border:none;
+		box-sizing:border-box;
+		padding:0 10px;
+		height:25px;
+		margin-bottom:10px;
+		margin-left:15px;
+		border-bottom:3px solid #00FF00;
+		background-color:rgba(0,0,0,0.13);
+}
+
+
+
+/*-------------------------------Styling the side pannel--------------------------------*/
+.aside{
+	color:Blue;
+	float:left;
+	height:590px;
+	overflow-y:auto;
+	border:3px solid orange;
+	background-color:Orange;
+
+
+}
+.aside h1{
+	font-size:50px;
+}
+
+
+
+/*styling the footer part*/
+.footer{
+	
+	padding-top:10px;
+	text-align:center;
+	height:50px;
+	background-color:gray;
+}
+
+
+
+
+
+/*-------------------------------View Data Page Design---------------------------------------*/
+.searchtxt{
+		width:50%;
+		border:none;
+		color:black;
+		box-sizing:border-box;
+		padding:0 10px;
+		font-weight:bold;
+		height:25px;
+		margin-bottom:10px;
+		margin-left:15px;
+		background-color:rgba(0,0,0,0.13);
+		border-bottom:3px solid #00FF00;
+}
+.searchbtn{
+		
+	 border: none;
+	border-radius:3px;
+        color: white;
+        padding: 10px 24px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 12px;
+        margin: 4px 2px;
+        cursor: pointer;
+	height:30px;
+	background-color:orange;
+}
+.datatable{
+	
+	height:80%;
+	overflow-x:auto;
+	overflow-y:auto;
+	
+
+}
+.tableheader1{
+	background-color:lightblue;
+}
+.tableheader{
+	background-color:orange;
+}
+.table{
+	border:3px solid blue;
+	
+}
+
+
+
+
+/*--------------------------Comment Page Style---------------------*/
+.comment{
+	background-color:lightblue;
+
+	height:75%;
+	overflow-x:auto;
+	overflow-y:auto;
+	
+}
+.writecomment{
+	height:20%;
+	padding-top:5px;
+}
+textarea{
+	width:80%;
+	padding-top:10px;
+	height:80%;
+	float:left;
+	border-radius:10px;
+	font-size:14px;
+	font-weight:bold;
+}
+textarea:focus{
+	
+	border:2px solid orange; 
+}
+.send{
+	width:20%;
+	padding-top:10px;
+	margin-top:10px;
+	border-radius:10px;
+	height:60%;
+	font-size:14px;
+	font-weight:bold;
+	background-color:orange;
+}
+.send:hover{
+	background-color:black;
+	color:white;
+}
+
+
+
+/*----------------------------------About Page------------------------*/
+.home{
+	background-color:#2B3856;
+	color:white;
+}
+.values{
+	padding-left:40%;
+}
+p{
+	margin-left:10px;
+	margin-right:10px;
+}
+.organizationalstructure{
+	width:99%;
+	
+}
+.organizationalstructure img{
+	width:98%;
+	margin-left:5px;
+	margin-right:5px;
+	
+}
+.contact{
+	width:98%;
+	
+}
+.contact img{
+	width:90%;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+
+
+/*----------------------------------------signup style-----------------------------------------*/
+.user,.userlogin{
+	position:absolute;
+	left:35%;
+	top:5%;
+}
+.signup{
+		width:50%;
+		display:block;
+		border:none;
+		color:black;
+		box-sizing:border-box;
+		padding:0 10px;
+		font-weight:bold;
+		height:50px;
+		margin-bottom:10px;
+		margin-left:15px;
+		background-color:orange;
+		
+}
+.signup:hover{
+	background:black;
+	color:white;
+}
+.header1{
+	width:100%;
+	height:100px;
+}
+.header1 img{
+	width:100%;
+	height:100%;
+	float:left;
+}
+/*-----------------------------------------login style----------------------------------*/
+.userlogin{
+	left:35%;
+	top:30%;
+}
+.creat:hover{
+	color:red;
+	font-size:20px;
+	font-weight:bold;
+}
+
+/*------------------------------------User registerattion style-----------------------------------*/
+.register{
+	width:50%;
+	padding-top:10px;
+	margin-top:10px;
+	border-radius:3px;
+	height:50px;
+	margin-left:15px;
+	font-size:14px;
+	font-weight:bold;
+	background-color:orange;
+}
+.register:hover{
+	background-color:black;
+	color:white;
+}
+
+
+
+table img{
+	width:100px;
+	height:100px;
+}
+
+.id{
+	background-color:#2B65EC;
+	color:white;
+	font-size:16px;
+	font-weight:bold;
+}
+
+
+
+/*----------------------------------------------------------Developer Style---------------------------
+.developer{
+		width:100%;
+		float:left;
+		background-color:#25383C;
+		
+}
+.developerdiscribtion img{
+		width:75%;
+		height:150px;
+		
+}
+.developerdiscribtion{
+		width:45%;
+		height:200px;
+		float:left;
+		padding-left:20px;
+		margin-right:30px;
+		margin-bottom:50px;
+}
+.developerinfo{
+	width:100%;
+	background-color:#25383C;
+}*/
+
+.developer{
+		
+	float: left;
+	height: 100px;
+	margin-right: 30px;
+	margin-left: 15px;
+	margin-top: 10px;
+	color: white;
+}
+.developer img{
+	height: 50px;
+		width: 50%;
+		border-radius: 50%;
+}
+
+
+.searchcontent input[type ="date"],
+.searchcontent input[type ="number"],
+.searchcontent input[type ="text"],
+.searchcontent input[type ="search"]{
+		
+		width:200px;
+		
+		border:none;
+		color:black;
+		box-sizing:border-box;
+		padding:0 10px;
+		font-weight:bold;
+		height:25px;
+		margin-bottom:10px;
+		margin-left:15px;
+		background-color:rgba(0,0,0,0.13);
+		border-bottom:3px solid #00FF00;
+}
+.searchcontent select{
+		width:200px;
+		color:#2B65EC;
+		font-size:16px;
+		font-weight:bold;
+		
+		border:none;
+		box-sizing:border-box;
+		padding:0 10px;
+		height:25px;
+		margin-bottom:10px;
+		margin-left:15px;
+		border-bottom:3px solid #00FF00;
+		background-color:rgba(0,0,0,0.13);
+}
+.searchcontent1{
+	float:left;
+	
+
+}
+.searchcontent1{
+	float:left;
+	
+	
+}
+.singleinfotable th{
+	text-align:left;
+}
+.singleinfotable td{
+	text-align:center;
+}
